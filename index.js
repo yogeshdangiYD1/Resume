@@ -70,7 +70,7 @@ gsap.to(".skillList .skillItem:nth-child(3) div:nth-child(2) div", {
         toggleActions: "restart none none reset",
         start: "top 95%",
     },
-    width: "75%"
+    width: "70%"
 });
 gsap.to(".skillList .skillItem:nth-child(4) div:nth-child(2) div", {
     scrollTrigger: {
@@ -86,7 +86,7 @@ gsap.to(".skillList .skillItem:nth-child(5) div:nth-child(2) div", {
         toggleActions: "restart none none reset",
         start: "top 95%",
     },
-    width: "90%"
+    width: "40%"
 });
 gsap.to(".skillList .skillItem:nth-child(6) div:nth-child(2) div", {
     scrollTrigger: {
@@ -94,7 +94,7 @@ gsap.to(".skillList .skillItem:nth-child(6) div:nth-child(2) div", {
         toggleActions: "restart none none reset",
         start: "top 95%"
     },
-    width: "93%"
+    width: "50%"
 });
 
 
