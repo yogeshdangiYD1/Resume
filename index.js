@@ -54,7 +54,7 @@ gsap.to(".skillList .skillItem:nth-child(1) div:nth-child(2) div", {
         toggleActions: "restart none none reset",
         start: "top 95%",
     },
-    width: "95%"
+    width: "100%"
 });
 gsap.to(".skillList .skillItem:nth-child(2) div:nth-child(2) div", {
     scrollTrigger: {
@@ -62,7 +62,7 @@ gsap.to(".skillList .skillItem:nth-child(2) div:nth-child(2) div", {
         toggleActions: "restart none none reset",
         start: "top 95%",
     },
-    width: "85%"
+    width: "90%"
 });
 gsap.to(".skillList .skillItem:nth-child(3) div:nth-child(2) div", {
     scrollTrigger: {
@@ -70,7 +70,7 @@ gsap.to(".skillList .skillItem:nth-child(3) div:nth-child(2) div", {
         toggleActions: "restart none none reset",
         start: "top 95%",
     },
-    width: "70%"
+    width: "90%"
 });
 gsap.to(".skillList .skillItem:nth-child(4) div:nth-child(2) div", {
     scrollTrigger: {
@@ -78,7 +78,7 @@ gsap.to(".skillList .skillItem:nth-child(4) div:nth-child(2) div", {
         toggleActions: "restart none none reset",
         start: "top 95%",
     },
-    width: "80%"
+    width: "70%"
 });
 gsap.to(".skillList .skillItem:nth-child(5) div:nth-child(2) div", {
     scrollTrigger: {
@@ -94,7 +94,7 @@ gsap.to(".skillList .skillItem:nth-child(6) div:nth-child(2) div", {
         toggleActions: "restart none none reset",
         start: "top 95%"
     },
-    width: "50%"
+    width: "60%"
 });
 
 
