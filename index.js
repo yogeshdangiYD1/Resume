@@ -48,54 +48,17 @@ gsap.to(footer, {
     ease: "power4.in"
 });
 
-gsap.to(".skillList .skillItem:nth-child(1) div:nth-child(2) div", {
-    scrollTrigger: {
-        trigger: ".skillItem:nth-child(1)",
-        toggleActions: "restart none none reset",
-        start: "top 95%",
-    },
-    width: "100%"
-});
-gsap.to(".skillList .skillItem:nth-child(2) div:nth-child(2) div", {
-    scrollTrigger: {
-        trigger: ".skillItem:nth-child(2)",
-        toggleActions: "restart none none reset",
-        start: "top 95%",
-    },
-    width: "90%"
-});
-gsap.to(".skillList .skillItem:nth-child(3) div:nth-child(2) div", {
-    scrollTrigger: {
-        trigger: ".skillItem:nth-child(3)",
-        toggleActions: "restart none none reset",
-        start: "top 95%",
-    },
-    width: "90%"
-});
-gsap.to(".skillList .skillItem:nth-child(4) div:nth-child(2) div", {
-    scrollTrigger: {
-        trigger: ".skillItem:nth-child(4)",
-        toggleActions: "restart none none reset",
-        start: "top 95%",
-    },
-    width: "70%"
-});
-gsap.to(".skillList .skillItem:nth-child(5) div:nth-child(2) div", {
-    scrollTrigger: {
-        trigger: ".skillItem:nth-child(5)",
-        toggleActions: "restart none none reset",
-        start: "top 95%",
-    },
-    width: "40%"
-});
-gsap.to(".skillList .skillItem:nth-child(6) div:nth-child(2) div", {
-    scrollTrigger: {
-        trigger: ".skillItem:nth-child(6)",
-        toggleActions: "restart none none reset",
-        start: "top 95%"
-    },
-    width: "60%"
-});
+gsap.to(".skillList .skillItem:nth-child(1) div:nth-child(2) div", { width: "100%", scrollTrigger: ".skillItem:nth-child(1)" });
+gsap.to(".skillList .skillItem:nth-child(2) div:nth-child(2) div", { width: "90%", scrollTrigger: ".skillItem:nth-child(2)" });
+gsap.to(".skillList .skillItem:nth-child(3) div:nth-child(2) div", { width: "90%", scrollTrigger: ".skillItem:nth-child(3)" });
+gsap.to(".skillList .skillItem:nth-child(4) div:nth-child(2) div", { width: "100%", scrollTrigger: ".skillItem:nth-child(4)" });
+gsap.to(".skillList .skillItem:nth-child(5) div:nth-child(2) div", { width: "95%", scrollTrigger: ".skillItem:nth-child(5)" }); 
+gsap.to(".skillList .skillItem:nth-child(6) div:nth-child(2) div", { width: "90%", scrollTrigger: ".skillItem:nth-child(6)" }); 
+gsap.to(".skillList .skillItem:nth-child(7) div:nth-child(2) div", { width: "90%", scrollTrigger: ".skillItem:nth-child(7)" }); 
+gsap.to(".skillList .skillItem:nth-child(8) div:nth-child(2) div", { width: "70%", scrollTrigger: ".skillItem:nth-child(8)" });
+gsap.to(".skillList .skillItem:nth-child(9) div:nth-child(2) div", { width: "40%", scrollTrigger: ".skillItem:nth-child(9)" });
+gsap.to(".skillList .skillItem:nth-child(10) div:nth-child(2) div", { width: "90%", scrollTrigger: ".skillItem:nth-child(10)" }); 
+
 
 
 let bgLeft = document.querySelector('.bg-left')
